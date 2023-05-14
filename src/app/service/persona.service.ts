@@ -7,7 +7,7 @@ import { persona } from '../model/persona.model';
   providedIn: 'root'
 })
 export class PersonaService {
-  URL = 'https://localhost:8080/personas/';
+  URL = 'https://backendmanuco.onrender.com/personas/';
 
   constructor(private http: HttpClient) { }
 
