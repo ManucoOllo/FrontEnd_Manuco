@@ -1,16 +1,10 @@
 {
   "hosting": {
-    "public": "(public)dist/proyecto-integrador-ollo-lucas-emmanuel",
+    "public": "dist/proyecto-integrador-ollo-lucas-emmanuel",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
     ]
   }
 }
