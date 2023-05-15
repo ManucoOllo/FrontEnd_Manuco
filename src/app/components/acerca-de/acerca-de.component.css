@@ -2,7 +2,7 @@
     padding: 13px;
 }
 div{
-    background-color: aquamarine;
+    background-color: #00897b;
     text-align: center;
 }
 @media (min-width: 576px){
@@ -10,9 +10,9 @@ div{
         position: absolute  ;
         width: 15%;
         border-radius: 100%;
-        box-shadow: 3px 3px 3px grey;
+        box-shadow: 3px 3px 3px aquamarine;
         left: 2%;
-        top: 700px;
+        top: 333px;
     }
 }
 @media (max-width: 576px){
@@ -20,9 +20,9 @@ div{
         position: absolute  ;
         width: 30%;
         border-radius: 100%;
-        box-shadow: 3px 3px 3px grey;
+        box-shadow: 3px 3px 3px aquamarine;
         left: 33%;
-        top: 700px;
+        top: 333px;
     }
 }
 #nombre{
